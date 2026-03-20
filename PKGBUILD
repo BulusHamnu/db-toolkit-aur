@@ -2,7 +2,7 @@
 
 # Build DB Toolkit from .deb release;
 pkgname=db-toolkit
-pkgver=0.1.0_beta6
+pkgver=0.1.0_beta7
 pkgrel=1
 pkgdesc="Database management desktop app"
 arch=('x86_64')
@@ -11,10 +11,10 @@ license=('MIT')
 depends=()
 
 source=(
-  "https://github.com/db-toolkit/db-toolkit/releases/download/v0.1.0-beta6/DB.Toolkit-linux.deb"
+  "https://github.com/db-toolkit/db-toolkit/releases/download/v0.1.0-beta7/DB.Toolkit-linux.deb"
 )
 
-sha256sums=('SKIP')
+sha256sums=('86b7c08a44ce5c1818b986a5dac651abfed9b73c234958697346839b1580da35')
 
 package() {
   cd "$srcdir"
